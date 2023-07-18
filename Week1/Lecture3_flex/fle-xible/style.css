@@ -1,0 +1,13 @@
+.row {
+    background-color: brown;
+    display: flex;
+}
+
+.col{
+    background-color: blue;
+    flex: 1;
+}
+
+.col1 {
+    flex: 2;
+}
