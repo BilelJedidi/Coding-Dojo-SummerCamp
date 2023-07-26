@@ -1,0 +1,114 @@
+ /* === CSS Reset === */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 2px dotted  red;
+    box-sizing: border-box;
+    background-color: bisque;
+    font-family: sans-serif;
+    
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*=== BODY === */
+body {
+    background-color: burlywood;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/* === TOP - Nav == */
+
+nav {
+    background-color: rebeccapurple;
+    min-height: 50px;
+   
+    padding: 0 10px;
+}
+
+/* == Left -NAV === */
+
+.left-nav > img {
+    width: 50px;
+}
+
+.left-nav {
+    background-color: #0099e2;;
+    width: 40%;
+}
+.left-nav > button {
+    background-color: orange;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px black;
+}
+
+/* === Rigth -NAV === */
+.rigth-nav{
+    background-color: rgb(33, 216, 36);
+}
+.rigth-nav > button{
+    /* background-color: red; */
+    border: 2px solid black;
+    border-radius: 3px;
+    /* gap: 10px; */
+    margin-left: 15px;
+
+}
+
+.rigth-nav>button:nth-child(1){
+    background-color: blue;
+    color: white;
+}
+.rigth-nav>button:nth-child(2){
+    background-color: rgb(206, 144, 46);
+}
+
+
+/* <!-- LOGO Area   --> */
+header {
+    background-color: rgb(166, 29, 173);
+    min-height: 100px;
+    padding: 30px 21px 21px 167px;
+}
+.header-topic {
+    width: 220px;
+    min-height: 50px;
+}
+
+.header-topic > img {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* <!-- MAIN SECTION  --> */
+
+main {
+    background-color: rgb(33, 190, 195);
+    min-height: 600px;
+    padding: 5px 167px;
+    gap: 10px;
+
+
+}
+.left-side {
+    flex:3;
+    background-color: rgb(255, 47, 0);
+    min-height: 500px;
+}
+.rigth-side {
+    flex: 2;
+    background-color: rgb(72, 53, 242);
+    min-height: 500px;
+}
+
+
